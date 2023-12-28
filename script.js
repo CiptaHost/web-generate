@@ -62,7 +62,7 @@ function createPage() {
   
   var blob = new Blob([templateHTML], { type: 'text/html' });
   var newPageURL = URL.createObjectURL(blob);
-  var finalURL = 'https://yourwebsite.com/' + randomURL + '.html';
+  var finalURL = 'https://ciptahost.github.io/web-generate/' + randomURL + '.html';
 
   // Simpan informasi halaman yang baru dibuat ke localStorage
   var storedPages = JSON.parse(localStorage.getItem('generatedPages')) || {};
